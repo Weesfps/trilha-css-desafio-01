@@ -1,0 +1,44 @@
+@import url('https://fonts.google.com/specimen/Raleway?query=rale');
+
+body{
+    background-color: black;
+}
+h1{
+    font-family: 'Raleway';
+    font-weight: 900;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+
+}
+
+p{
+font-family: 'Raleway';
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+background: rgba(255, 255, 255, 1);
+
+}
+button{
+width: 326px;
+height:57px;
+top: 473px;
+left: 557px;
+padding: 19px, 91px, 19px, 91px;
+border-radius: 30px;
+gap: 31px;
+background: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+border: 2px solid;
+border-image-source: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+font-family: 'Raleway';
+font-size: 16px;
+font-weight: 900;
+line-height: 19px;
+letter-spacing: 0.21em;
+text-align: center;
+
+}
