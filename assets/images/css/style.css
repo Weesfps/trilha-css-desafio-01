@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?família=Raleway:ital,wght@0,100; 0,200; 0,800; 1.100&display=swap');
- 
+
+ @font-face {
+  font-family: 'Raleway', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+ }
 * {
   font-family: 'Raleway', sans-serif;
   box-sizing: border-box;
@@ -28,10 +31,10 @@ p{
     justify-content: center;
     align-items: flex-start;
     top: 0;
-    width: 100%;
+    width: 1440px;
     height: 605px;
     border: 0px, 0px, 1px, 0px;
-    background: linear-gradient(rgba(0, 0, 0, 0.50)0%, rgba(51, 168, 219, 0.15)50%, rgba(0, 0, 0, 0.08)100%), url('../images/banner.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.50)0%, rgba(51, 168, 219, 0.15)50%, rgba(0, 0, 0, 0.08)100%), url('../banner.png');
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 60px;
@@ -61,13 +64,11 @@ width: 268px;
 height: 268px;
 left: 121px;
 border-radius: 90%;
-background: radial-gradient(circle, transparent 50%,rgba(0, 0, 0, 0.2) 80%);
-
-  
+background: radial-gradient(circle, transparent 100%,rgba(0, 0, 0, 0.2) 80%);  
 width: 243px;
 height: 214px;
 top: 27px;
-left: 131px;
+left: 121px;
 }
 
 
@@ -85,10 +86,10 @@ background-clip: text;
 .trilha{
   
 font-size: 12px;
-margin: 14px 0 24px;
+margin: 14px 0 23px;
 font-family: 'Raleway', sans-serif;
-font-size: 20px;
-font-weight: 900;
+font-size: 30px;
+font-weight: 400;
 line-height: 18px;
 letter-spacing: 0.1rem;
 text-align: center;
@@ -138,5 +139,22 @@ background: -webkit-linear-gradient(rgba(51, 168, 219, 1));
 background-clip: text;
 -webkit-background-clip: text;
 }
+#course-content > p{
+width: 792px;
+height: 38px;
+font-family: Raleway;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+background: -webkit-linear-gradient(rgba(255, 255, 255, 1));
+background-clip: text;
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
 
+}
   
